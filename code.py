@@ -85,10 +85,10 @@ def form():
 
             port = 587  # For starttls
             smtp_server = "smtp.gmail.com"
-            sender_email = "sahilgulghane22@gmail.com"
+            sender_email = ""
 
             receiver_email = input_string
-            password = 'kmdzkhzoxzypwltw'
+            password = ''
             message = response
             Subject: "Hi there"
             context = ssl.create_default_context()
