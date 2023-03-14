@@ -25,7 +25,7 @@ def form():
             audio = r.listen(source)  # take voice input from the microphone
 
         # chat-gpt key
-        openai.api_key = "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"
+        openai.api_key = "@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@"
         # module usage
         model_engine = "text-davinci-003"
         prompt = r.recognize_google(audio)
